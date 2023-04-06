@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(concert.jpg);
+    background-size: cover;
+}
+
+nav{
+    margin: 0;
+    padding: 20px 25px;
+    background-color: rgb(109, 100, 100);
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: block;
+    float: right;
+    padding: 1px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+li:hover{
+    color: black;
+    font-weight: 700;
+}
+
+h1,p{
+    color: white;
+}
+
+.music-band{
+    text-align: center;
+    font-size: 50px;
+    text-shadow:2px 2px 5px rgb(236, 214, 14),2px 3px 5px rgb(26, 17, 17);
+    text-transform: uppercase;
+    word-spacing: 7px;
+    margin-top: 4px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main{
+    font-size: 115px;
+    line-height: 120px;
+    margin-left: 75px;
+    text-shadow:2px 2px 5px rgb(75, 68, 68),2px 3px 5px rgb(31, 25, 25),3px 4px 5px black;
+}
+
+.date{
+    font-size: 90px;
+    color: rgba(3, 3, 3, 0.733);
+    font-weight: 900;
+    margin-left:60px ;
+}
+
+sup{
+    font-size: 50px;
+}
+
+.detials{
+    font-size: 40px;
+    color: rgb(168, 154, 83);
+    text-shadow: 3px 4px 5px black;
+    font-weight: 700;
+    margin-top: 250px;
+    margin-right: 100px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn{
+    float: right;
+    padding: 10px 20px;
+    margin-right:400px;
+    margin-top: 70px;
+    border: 3;
+    border-color: black;
+    background-color: rgb(63, 23, 23);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(63, 23, 23);
+}
+
+.btn:hover{
+    background-color: white;
+}
+
+/*-------tickets.html-------*/
+
+.page-two{
+    opacity: 0.7;
+}
+.sec-page{
+    padding:100px 20px;
+    display: grid;
+    background-color: rgb(177, 161, 90);
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+}
+
+table, th, td {
+    border: 3px solid black;
+    height: 70px;
+    width: 70%;
+}
+
+th{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+td{
+    font-size: 15px;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
+select{
+    margin-top: 70px;
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.count button{
+    padding: 15px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.count button:hover{
+    color: rgb(146, 12, 12);
+}
+
+input[type=submit] {
+    width: 75%;
+    background-color: #412803;
+    font-size: 20px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #1a1001;
+}
+
+/*-------meadia queries----------*/
+
+@media only screen and (max-width: 400px){
+}
